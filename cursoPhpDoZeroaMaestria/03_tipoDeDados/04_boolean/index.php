@@ -11,7 +11,5 @@
         echo "É booleano.";
     } else {
         echo "Não é booleano 2.";
-    }
-
-    
+    }    
 ?>
