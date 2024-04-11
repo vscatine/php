@@ -1,0 +1,12 @@
+<?php
+    include_once "backend.php";
+?>
+
+<h1>Seja bem-vindo ao nosso site</h1>
+<p><?= $usrName;?>, veja nossas ofertas:</p>
+<ul>
+    <?php foreach($prods as $produto): ?>
+        <li><?= $produto; ?></li>
+    <?php endforeach; ?>
+
+</ul>
